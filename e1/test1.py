@@ -134,3 +134,4 @@ def auto2():
     pylab.ylabel('Average price of the house')
     pylab.grid()
     pylab.show()
+    
