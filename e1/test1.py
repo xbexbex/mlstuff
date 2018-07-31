@@ -35,7 +35,6 @@ def plot_prediction_error(x_test, y_test, y_test_pred):
     pylab.plot([x_test, x_test], [y_test, y_test_pred], 'r-')
 
 def manual(w, b):
-
     pylab.plot(X, y, '.')
     pylab.grid()
     pylab.xlabel('Average number of rooms')
